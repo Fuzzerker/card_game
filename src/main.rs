@@ -4,6 +4,15 @@ use std::time::{SystemTime, UNIX_EPOCH};
 extern crate rand;
 use rand::Rng;
 
+//TODO:
+//roll if num = bottom indes
+//dont end game on 1st col overflow - warn and let choose again
+// score
+// track score
+// high score saver
+// allow replay
+// have number that clears (ie- 2048) 
+
 fn main() {
     let mut g = Game::new();
     println!("enter a number");
